@@ -1,0 +1,74 @@
+#header{
+    background-color: orange;
+}
+#nav{
+   
+    text-decoration-color: white;
+}
+#nav ul{
+    
+    display:inline-block;
+}
+#nav ul li{
+    display: inline-block;
+   
+    padding: 10px 10px;
+}
+#nav ul li:hover{
+    background-color:f39c12;
+    
+}
+#hdimg{
+    background-image: url(img/alvin-engler-bIhpiQA009k-unsplash1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 300px;
+    border: 2px solid black;
+}
+#htxt{
+    background: rgba(255, 255, 255,0.6);
+    padding-top:5px;
+    padding-bottom: 20PX;
+    margin-top: 100PX;
+    margin-bottom: -5px;
+    height: 65PX;
+    font-weight: 500;
+    align-items: center;
+}
+#txt{
+   width: 400px;
+   margin-top: -30px;
+   font-weight: 500;
+   height: 5Opx;
+   background: rgba(255, 99, 71,0.6);
+}
+i{
+    color: orangered;
+}
+#main{
+    background-image: url(img/nicolas-thomas-PLDkBHbM3Hc-unsplash.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#footer{
+background: rgba(0, 0, 0,0.8);
+color: white;
+}
+
+#ft{
+    float:left;
+ 
+    width: 900px;
+}
+#ftr{
+    float:right;
+
+    width: 200px;
+}
+#s{
+      color:red;
+     
+   
+}
