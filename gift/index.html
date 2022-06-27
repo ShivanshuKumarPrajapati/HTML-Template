@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift page</title>
+    
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- materailize  -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <!-- custom style -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   <section class="headerNav">
+
+    <!-- Dropdown Structure -->
+    <ul id="shop-dropdown" class="dropdown-content">
+    <li><a href="#!">one</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">three</a></li>
+    </ul>
+
+    <ul id="homeDecor-dropdown" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">four</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">five</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">six</a></li>
+        </ul>
+
+    <nav class="nav-fixed">
+        <div class="nav-wrapper">
+            
+            <ul class="right" id="search_cart_UL">
+              <li class="icon">
+                <i class="material-icons">search</i>
+                </li>
+                <li class="icon">
+                <i class="material-icons">shopping_cart</i>
+            </li>
+            </ul>
+
+          <a href="#" class="brand-logo">Logo</a>
+          
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+            <li><a class="dropdown-trigger" href="#!" data-target="shop-dropdown">Shop<i class="material-icons right">
+                arrow_drop_down</i></a></li>
+
+                <li><a class="dropdown-trigger" href="#!" data-target="homeDecor-dropdown">Home Decor<i class="material-icons right dropDown_icon">
+                    arrow_drop_down</i></a></li>
+            <li><a href="#">Festive Decor</a></li>
+            <li><a href="#">Corporate Gifting</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+    
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Home Decor</a></li>
+        <li><a href="#">Festive Decor</a></li>
+        <li><a href="#">Corporate Gifting</a></li>
+      </ul>
+    
+    
+   </section>
+
+<section>
+    <div class="img"></div>
+</section>
+
+
+
+    </body>
+    
+    
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+    crossorigin="anonymous"></script>
+
+    <!-- materialize script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- custom script -->
+    <script src="script.js"></script>
+
+</html>
