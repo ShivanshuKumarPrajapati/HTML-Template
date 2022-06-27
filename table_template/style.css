@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+}
+table{
+    width: 90%;
+    margin: 1em;
+}
+
+h1{
+    color: goldenrod;
+    font-weight:200;
+    font-size: 5em;
+    margin:auto;
+}
+p{
+    font-size: small;
+}
+
+.tdContent{
+    text-align: center;
+}
+
+.spancol{
+    width: 10%;
+    vertical-align: top;
+    text-align: justify;
+    border-left: 2px solid goldenrod;
+}
+
+.icon{
+    color:goldenrod;
+    margin: .2em auto;
+}
+
+.spanDiv{
+    margin:30%;
+}
+
+.ContentPara{
+    width: 80%;
+}
+
+
+.Content{
+    width: 35%;
+    vertical-align: text-top;
+    
+}
