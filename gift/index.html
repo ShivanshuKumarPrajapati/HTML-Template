@@ -1,145 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gift page</title>
-    
-    <!-- google font -->
-    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pacifico&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gift page</title>
+
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Bree+Serif&family=Pacifico&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <!-- materailize  -->
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    
-   
-    <link
-    rel="stylesheet"
-    href="https://unpkg.com/swiper/swiper-bundle.min.css"
-  />
+  <!-- materailize  -->
 
-    <!-- custom style -->
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- custom style -->
+  <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
-   <section class="headerNav">
+  <section class="headerNav">
 
     <!-- Dropdown Structure -->
     <ul id="shop-dropdown" class="dropdown-content">
-    <li><a href="#!">one</a></li>
-    <li class="divider"></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider"></li>
-    <li><a href="#!">three</a></li>
+      <li><a href="#!">one</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">two</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">three</a></li>
     </ul>
 
     <ul id="homeDecor-dropdown" class="dropdown-content">
-        <li><a href="#!">one</a></li>
-        <li class="divider"></li>
-        <li><a href="#!">two</a></li>
-        <li class="divider"></li>
-        <li><a href="#!">three</a></li>
-        <li class="divider"></li>
-        <li><a href="#!">four</a></li>
-        <li class="divider"></li>
-        <li><a href="#!">five</a></li>
-        <li class="divider"></li>
-        <li><a href="#!">six</a></li>
-        </ul>
+      <li><a href="#!">one</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">two</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">three</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">four</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">five</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">six</a></li>
+    </ul>
 
     <nav class="nav-fixed">
-        <div class="nav-wrapper">
-            
-            <ul class="right" id="search_cart_UL">
-              <li class="icon">
-                <i class="material-icons">search</i>
-                </li>
-                <li class="icon">
-                <i class="material-icons">shopping_cart</i>
-            </li>
-            </ul>
+      <div class="nav-wrapper">
 
-          <a href="#" class="brand-logo">Logo</a>
-          
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <ul class="right" id="search_cart_UL">
+          <li class="icon">
+            <i class="material-icons">search</i>
+          </li>
+          <li class="icon">
+            <i class="material-icons">shopping_cart</i>
+          </li>
+        </ul>
 
-            <li><a class="dropdown-trigger" href="#!" data-target="shop-dropdown">Shop<i class="material-icons right">
+        <a href="#" class="brand-logo">Logo</a>
+
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+          <li><a class="dropdown-trigger" href="#!" data-target="shop-dropdown">Shop<i class="material-icons right">
                 arrow_drop_down</i></a></li>
 
-                <li><a class="dropdown-trigger" href="#!" data-target="homeDecor-dropdown">Home Decor<i class="material-icons right dropDown_icon">
-                    arrow_drop_down</i></a></li>
-            <li><a href="#">Festive Decor</a></li>
-            <li><a href="#">Corporate Gifting</a></li>
+          <li><a class="dropdown-trigger" href="#!" data-target="homeDecor-dropdown">Home Decor<i
+                class="material-icons right dropDown_icon">
+                arrow_drop_down</i></a></li>
+          <li><a href="#">Festive Decor</a></li>
+          <li><a href="#">Corporate Gifting</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Home Decor</a></li>
+      <li><a href="#">Festive Decor</a></li>
+      <li><a href="#">Corporate Gifting</a></li>
+    </ul>
+
+
+  </section>
+
+  <section>
+    <div class="img"></div>
+  </section>
+
+  <section class="roundedCarousel">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="Img/customwine_box" class="sliderImg" alt="img" />
+          <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
+        </div>
+        <div class="swiper-slide"><img src="Img/gemStone_tree" class="sliderImg" alt="img" />
+          <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
+        </div>
+        <div class="swiper-slide"><img src="Img/gift" class="sliderImg" alt="img" />
+          <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
+        </div>
+        <div class="swiper-slide"><img src="Img/lamp" class="sliderImg" alt="img" />
+          <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
+        </div>
+        <div class="swiper-slide"><img src="Img/peacock" class="sliderImg" alt="img" />
+          <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
+        </div>
+        <div class="swiper-slide"><img src="Img/plant" class="sliderImg" alt="img" />
+          <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
+        </div>
+        <div class="swiper-slide"><img src="Img/starbox" class="sliderImg" alt="img" />
+          <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </section>
+
+  <section class="cardCarousel">
+    <div class="sectionHeader">
+      <p class="sectionHead">Limited edition</p>
+      <button class="viewBtn">View All</button>
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper cardSlider">
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col s12 l12 m10">
+              <div class="card">
+                <div class="card-image">
+                  <img src="Img/customwine_box" class="cardImg">
+                  <span class="card-title">Rs 1000</span>
+                </div>
+                <div class="card-content">
+                  <p>Custom box</p>
+                  <button class="AddBtn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col s12 l12 m10">
+              <div class="card">
+                <div class="card-image">
+                  <img src="Img/gemStone_tree" class="cardImg">
+                  <span class="card-title">Rs 1800</span>
+                </div>
+                <div class="card-content">
+                  <p>GemStone</p>
+                  <button class="AddBtn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col s12 l12 m10">
+              <div class="card">
+                <div class="card-image">
+                  <img src="Img/gift" class="cardImg">
+                  <span class="card-title">Rs 555</span>
+                </div>
+                <div class="card-content">
+                  <p>Gift Box</p>
+                  <button class="AddBtn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col s12 l12 m10">
+              <div class="card">
+                <div class="card-image">
+                  <img src="Img/lamp">
+                  <span class="card-title" class="cardImg">Rs 799</span>
+                </div>
+                <div class="card-content">
+                  <p>Lamp</p>
+                  <button class="AddBtn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col s12 l12 m10">
+              <div class="card">
+                <div class="card-image">
+                  <img src="Img/peacock" class="cardImg">
+                  <span class="card-title">Rs 499</span>
+                </div>
+                <div class="card-content">
+                  <p>Peakcock Case</p>
+                  <button class="AddBtn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col s12 l12 m10">
+              <div class="card">
+                <div class="card-image">
+                  <img src="Img/plant" class="cardImg">
+                  <span class="card-title">Rs 399</span>
+                </div>
+                <div class="card-content">
+                  <p>Plant showcase</p>
+                  <button class="AddBtn">Add to Cart</button>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col s12 l12 m10">
+              <div class="card">
+                <div class="card-image">
+                  <img src="Img/starbox" class="cardImg">
+                  <span class="card-title">Rs 899</span>
+                </div>
+                <div class="card-content">
+                  <p>Starbox</p>
+                  <button class="AddBtn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <section>
+    <div id="gify"></div>
+  </section>
+
+  <section >
+    <div id="footer">
+      <div class="footerCol1">
+        <div>
+          <h1>logo</h1>
+          <p>The art of Gifting</p>
+        </div>
+        <div>
+          <h3>INFORMATION</h3>
+          <ul>
+            <li>Return and Refunds</li>
+            <li>Daily Horoscope</li>
+            <li>Holiday List</li>
+            <li>Terms & Condition</li>
+            <li>Privacy Policy</li>
           </ul>
         </div>
-      </nav>
-      
-    
-      <ul class="sidenav" id="mobile-demo">
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">Home Decor</a></li>
-        <li><a href="#">Festive Decor</a></li>
-        <li><a href="#">Corporate Gifting</a></li>
-      </ul>
-    
-    
-   </section>
-
-<section>
-    <div class="img"></div>
-</section>
-
-<section>
-  <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="Img/customwine_box" class="sliderImg" alt="img"/>
-      <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
       </div>
-      <div class="swiper-slide"><img src="Img/gemStone_tree" class="sliderImg" alt="img"/>
-      <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
-      </div>
-      <div class="swiper-slide"><img src="Img/gift" class="sliderImg" alt="img"/>
-      <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
-      </div>
-      <div class="swiper-slide"><img src="Img/lamp" class="sliderImg" alt="img"/>
-      <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
-      </div>
-      <div class="swiper-slide"><img src="Img/peacock" class="sliderImg" alt="img"/>
-      <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
-      </div>
-      <div class="swiper-slide"><img src="Img/plant" class="sliderImg" alt="img"/>
-      <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
-      </div>
-      <div class="swiper-slide"><img src="Img/starbox" class="sliderImg" alt="img"/>
-      <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
+      <div class="footerCol2">
+        <div>
+          <h5>ABOUT MY WEBSITE</h5>
+          <ul>
+            <li>Contact us</li>
+            <li>About us</li>
+            <li>Corporate Equiry</li>
+            <li>Exchange/Cancel My order</li>
+          </ul>
+        </div>
+        <div>
+          <h5>CUSTOMER CARE</h5>
+          <p>Phone: +91...........</p>
+          <p>Email: Sample@gmail.com</p>
+        </div>
       </div>
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-pagination"></div>
-  </div>
+  </section>
 
-</section>
-
-    </body>
-    
-    
-    <!-- jquery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
-    crossorigin="anonymous"></script>
-
-    <!-- materialize script -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-    
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
 
 
-    <!-- custom script -->
-    <script src="script.js"></script>
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- materialize script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+<!-- custom script -->
+<script src="script.js"></script>
 
 </html>
