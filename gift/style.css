@@ -47,8 +47,25 @@
     border-radius: 50%;
 }
 
+.cartSidenav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cartHeader{
+    background-color:#EE6E73;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: x-large; 
+    padding-left: 5px;
+        
+}
+
 .swiper{
-    margin:2em;    
+    margin:2em; 
+    margin-top: 5em;   
 }
 
   .swiper-slide {
@@ -89,6 +106,9 @@
     overflow: hidden;
 }
 
+.cardCarousel{
+    margin-top: -2em;
+}
 
 .card-content  p{
     margin:0.1em auto;
@@ -117,7 +137,7 @@
     justify-content: space-between;
     align-items: center;
     margin:5em;
-    margin-bottom: -2.5em;
+    margin-bottom: -4.5em;
 }
 
 .sectionHead{
@@ -223,6 +243,8 @@ h1{
 @media screen and (max-width:992px) {
     .cardImg{
         width: 100% !important;
+        overflow: hidden;
+        aspect-ratio: 11/9 !important;
     }
 
     .footerCol1{
@@ -242,6 +264,13 @@ h1{
         align-content: center;
         text-align: center;
     }
+
+    #gify{
+        height: 365px;
+        width: 100%;
+        background-image: url(./Img/SALT_LAMP_BANNER.gif);
+        background-size: 100% 100%;
+    }
 }
 
 
@@ -253,7 +282,13 @@ h1{
         width:min-content;
         overflow: hidden;
         aspect-ratio: 11/9;
-        /* max-width: min-content; */
+    }
+
+    #gify{
+        height: 285px;
+        width: 100%;
+        background-image: url(./Img/SALT_LAMP_BANNER.gif);
+        background-size: 100% 100%;
     }
 
 }

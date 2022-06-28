@@ -1,7 +1,8 @@
 $(document).ready(function(){
-    $('.sidenav').sidenav(); 
+    $('.sidenav').sidenav({draggable:false}); 
     $(".dropdown-trigger").dropdown({hover: false} );
     $('.collapsible').collapsible();
+    $('.cartSidenav').sidenav({edge:"right",draggable:false});
     
     var swiper = new Swiper(".mySwiper", {
         breakpoints:{

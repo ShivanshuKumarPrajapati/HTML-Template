@@ -49,6 +49,25 @@
       <li><a href="#!">six</a></li>
     </ul>
 
+    <!-- Cart Sidenav Structure -->
+    <section>
+      <ul id="slide-out" class="sidenav cartSidenav">
+       
+        <li class="cartHeader">
+           
+           <p><span class="material-icons">
+            shopping_bag
+           </span> Cart</p>
+          <span class="material-icons sidenav-close"
+          style="margin: auto 1em;">
+            highlight_off
+            </span>
+        </li>
+        <li style="margin-left:7px; font-family:Breeserif;
+        font-size: large;">Your Cart is currently empty</li>
+      </ul>
+    </section>
+
     <nav class="nav-fixed">
       <div class="nav-wrapper">
 
@@ -56,7 +75,7 @@
           <li class="icon">
             <i class="material-icons">search</i>
           </li>
-          <li class="icon">
+          <li class="icon sidenav-trigger" data-target="slide-out">
             <i class="material-icons">shopping_cart</i>
           </li>
         </ul>
