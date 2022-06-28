@@ -28,7 +28,7 @@
 
     <!-- Dropdown Structure -->
     <ul id="shop-dropdown" class="dropdown-content">
-      <li><a href="#!">one</a></li>
+      <li ><a href="#!">one</a></li>
       <li class="divider"></li>
       <li><a href="#!">two</a></li>
       <li class="divider"></li>
@@ -61,7 +61,7 @@
           </li>
         </ul>
 
-        <a href="#" class="brand-logo">Logo</a>
+        <a href="#" class="brand-logo" style="font-family:pacifico ;">Logo</a>
 
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -79,11 +79,35 @@
     </nav>
 
 
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="#">Shop</a></li>
-      <li><a href="#">Home Decor</a></li>
-      <li><a href="#">Festive Decor</a></li>
-      <li><a href="#">Corporate Gifting</a></li>
+    <ul class="sidenav collapsible" id="mobile-demo">
+      <li><a href="#" class="collapsible-header">Shop
+        <i class="material-icons right" >arrow_drop_down</i>
+      </a>
+        <ul class="collapsible-body">
+          <li><a href="#!">one</a></li>
+          <li class="divider"></li>
+          <li><a href="#!">two</a></li>
+          <li class="divider"></li>
+          <li><a href="#!">three</a></li>
+          </ul>
+      </li>
+      <li><a href="#" class="collapsible-header">Home Decor<i class="material-icons right">arrow_drop_down</i></a>
+       <ul class="collapsible-body">
+        <li><a href="#!">one</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">four</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">five</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">six</a></li>
+      </ul>
+      </li>
+      <li><a href="#" style="margin-left: -1em;">Festive Decor</a></li>
+      <li><a href="#" style="margin-left: -1em;">Corporate Gifting</a></li>
     </ul>
 
 
@@ -256,15 +280,143 @@
     <div id="gify"></div>
   </section>
 
+  <section class="cardCarousel">
+    <div class="sectionHeader">
+      <p class="sectionHead">Evil Eye</p>
+      <button class="viewBtn">View All</button>
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper cardSlider">
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col s12 l12 m10">
+              <div class="card">
+                <div class="card-image">
+                  <img src="Img/customwine_box" class="cardImg">
+                  <span class="card-title">Rs 1000</span>
+                </div>
+                <div class="card-content">
+                  <p>Custom box</p>
+                  <button class="AddBtn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col s12 l12 m10">
+              <div class="card">
+                <div class="card-image">
+                  <img src="Img/gemStone_tree" class="cardImg">
+                  <span class="card-title">Rs 1800</span>
+                </div>
+                <div class="card-content">
+                  <p>GemStone</p>
+                  <button class="AddBtn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col s12 l12 m10">
+              <div class="card">
+                <div class="card-image">
+                  <img src="Img/gift" class="cardImg">
+                  <span class="card-title">Rs 555</span>
+                </div>
+                <div class="card-content">
+                  <p>Gift Box</p>
+                  <button class="AddBtn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col s12 l12 m10">
+              <div class="card">
+                <div class="card-image">
+                  <img src="Img/lamp">
+                  <span class="card-title" class="cardImg">Rs 799</span>
+                </div>
+                <div class="card-content">
+                  <p>Lamp</p>
+                  <button class="AddBtn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col s12 l12 m10">
+              <div class="card">
+                <div class="card-image">
+                  <img src="Img/peacock" class="cardImg">
+                  <span class="card-title">Rs 499</span>
+                </div>
+                <div class="card-content">
+                  <p>Peakcock Case</p>
+                  <button class="AddBtn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col s12 l12 m10">
+              <div class="card">
+                <div class="card-image">
+                  <img src="Img/plant" class="cardImg">
+                  <span class="card-title">Rs 399</span>
+                </div>
+                <div class="card-content">
+                  <p>Plant showcase</p>
+                  <button class="AddBtn">Add to Cart</button>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col s12 l12 m10">
+              <div class="card">
+                <div class="card-image">
+                  <img src="Img/starbox" class="cardImg">
+                  <span class="card-title">Rs 899</span>
+                </div>
+                <div class="card-content">
+                  <p>Starbox</p>
+                  <button class="AddBtn">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+
   <section >
-    <div id="footer">
+    <div class="footer hide-on-small-only">
       <div class="footerCol1">
         <div>
-          <h1>logo</h1>
-          <p>The art of Gifting</p>
+          <h1>Logo</h1>
+          <p class="logoPara">The art of Gifting</p>
         </div>
         <div>
-          <h3>INFORMATION</h3>
+          <h5>INFORMATION</h5>
           <ul>
             <li>Return and Refunds</li>
             <li>Daily Horoscope</li>
@@ -286,13 +438,64 @@
         </div>
         <div>
           <h5>CUSTOMER CARE</h5>
-          <p>Phone: +91...........</p>
-          <p>Email: Sample@gmail.com</p>
+          <ul>
+            <li>Phone: +91...........</li>
+            <li>Email: Sample@gmail.com</li>
+          </ul>
         </div>
+      </div>
+      <div>
+        <div class="divider white"></div>
+        <p class="copyrightContent"><i class="material-icons">copyright</i>copyright 2022</p>
       </div>
     </div>
   </section>
 
+  <section>
+    <div class="hide-on-med-and-up ">
+      <ul class="center footerMob collapsible ">
+        <li><h1>Logo</h1>
+          <p class="logoPara">The art of Gifting</p>
+        </li>
+        <li class="divider white"></li>
+        <li >
+          <h5 class="collapsible-header footer_collapsible_header">INFORMATION</h5>
+          <ul class="collapsible-body"
+          style="margin-top:-2.5em ;">
+            <li>Return and Refunds</li>
+              <li>Daily Horoscope</li>
+              <li>Holiday List</li>
+              <li>Terms & Condition</li>
+              <li>Privacy Policy</li>
+          </ul>
+        </li>
+        <li class="divider white"></li>
+        <li >
+          <h5 class="collapsible-header footer_collapsible_header">ABOUT MY WEBSITE</h5>
+          <ul class="collapsible-body"
+          style="margin-top:-2.5em ;">
+            <li>Contact us</li>
+            <li>About us</li>
+            <li>Corporate Equiry</li>
+            <li>Exchange/Cancel My order</li>
+          </ul>
+        </li>
+        <li class="divider white"></li>
+        <li>
+          <h5 class="collapsible-header footer_collapsible_header">CUSTOMER CARE</h5>
+          <ul class="collapsible-body " style="margin-top:-2.5em ;">
+            <li>Phone: +91...........</li>
+            <li>Email: Sample@gmail.com</li>
+          </ul>
+        </li>
+        <li>
+          <div class="divider white"></div>
+          <p class="copyrightContent"><i class="material-icons">copyright</i>copyright 2022</p>
+        </li>
+        </ul>
+
+    </div>
+  </section>
 </body>
 
 

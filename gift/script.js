@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $('.sidenav').sidenav(); 
     $(".dropdown-trigger").dropdown({hover: false} );
+    $('.collapsible').collapsible();
     
     var swiper = new Swiper(".mySwiper", {
         breakpoints:{
