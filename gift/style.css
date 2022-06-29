@@ -1,3 +1,9 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: breeserif;
+}
 .nav-wrapper{
     width: 85%;
     margin:auto;
@@ -65,7 +71,13 @@
 
 .swiper{
     margin:2em; 
-    margin-top: 5em;   
+    margin-top: 5em; 
+}
+
+.cardSlider{
+    display: flex;
+    flex-direction: row;
+    height: 100% !important;
 }
 
   .swiper-slide {
@@ -80,6 +92,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    -ms-flex-line-pack: justify;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -89,7 +102,6 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    
   }
 
   .swiper-slide img{
@@ -103,7 +115,6 @@
 
   .cardImg{
     width: 200px !important;
-    overflow: hidden;
 }
 
 .cardCarousel{
@@ -124,6 +135,7 @@
     width: 100%;
     margin:1em auto;
     margin-bottom: 0px;
+    font-family: Breeserif;
 }
 
 .card-title{
@@ -154,6 +166,8 @@
     padding:0em 1.5em !important;
     color: white !important;
     border-radius: 5px;
+    font-family: Breeserif;
+    font-size: large;
 }
 
 #gify{
@@ -223,6 +237,10 @@ h1{
     font-family: pacifico;
     font-style: italic;
 }
+
+p{
+    font-family: Breeserif,pacifico;
+}
 .logoPara{
     margin-top: -0.4em; 
     font-family: 'Allura', cursive;
@@ -273,7 +291,12 @@ h1{
     }
 }
 
-
+#searchDiv{
+    position:absolute;
+    top:4em;
+    display: none;
+    box-shadow: none;
+}
 
 
 
@@ -289,6 +312,9 @@ h1{
         width: 100%;
         background-image: url(./Img/SALT_LAMP_BANNER.gif);
         background-size: 100% 100%;
+    }
+    .sidenav{
+        width: 250px;
     }
 
 }

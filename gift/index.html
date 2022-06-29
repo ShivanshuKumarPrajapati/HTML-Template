@@ -24,6 +24,26 @@
 </head>
 
 <body>
+   <!-- Cart Sidenav Structure -->
+   <section>
+    <ul id="slide-out" class="sidenav cartSidenav">
+     
+      <li class="cartHeader">
+         
+         <p><span class="material-icons">
+          shopping_bag
+         </span> Cart</p>
+        <span class="material-icons sidenav-close"
+        style="margin: auto 1em;">
+          highlight_off
+          </span>
+      </li>
+      <li style="margin-left:7px; font-family:Breeserif;
+      font-size: large;">Your Cart is currently empty</li>
+    </ul>
+  </section>
+
+
   <section class="headerNav">
 
     <!-- Dropdown Structure -->
@@ -49,31 +69,13 @@
       <li><a href="#!">six</a></li>
     </ul>
 
-    <!-- Cart Sidenav Structure -->
-    <section>
-      <ul id="slide-out" class="sidenav cartSidenav">
-       
-        <li class="cartHeader">
-           
-           <p><span class="material-icons">
-            shopping_bag
-           </span> Cart</p>
-          <span class="material-icons sidenav-close"
-          style="margin: auto 1em;">
-            highlight_off
-            </span>
-        </li>
-        <li style="margin-left:7px; font-family:Breeserif;
-        font-size: large;">Your Cart is currently empty</li>
-      </ul>
-    </section>
-
+    <!-- nav bar -->
     <nav class="nav-fixed">
       <div class="nav-wrapper">
 
         <ul class="right" id="search_cart_UL">
           <li class="icon">
-            <i class="material-icons">search</i>
+            <i class="material-icons" id="srcItm">search</i>
           </li>
           <li class="icon sidenav-trigger" data-target="slide-out">
             <i class="material-icons">shopping_cart</i>
@@ -132,33 +134,49 @@
 
   </section>
 
+<!-- search div section -->
+  <section>
+    <nav id="searchDiv">
+      <div class="nav-wrapper" >
+        <form>
+          <div class="input-field">
+            <input id="search" type="search" required>
+            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+            <i class="material-icons" id="srcCls">close</i>
+          </div>
+        </form>
+      </div>
+    </nav>
+  </section>
+
   <section>
     <div class="img"></div>
   </section>
+
 
   <section class="roundedCarousel">
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide"><img src="Img/customwine_box" class="sliderImg" alt="img" />
-          <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
+          <p style=" margin-top: .1em; font-size:medium;">Label</p>
         </div>
         <div class="swiper-slide"><img src="Img/gemStone_tree" class="sliderImg" alt="img" />
-          <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
+          <p style=" margin-top: .1em; font-size:medium;">Label</p>
         </div>
         <div class="swiper-slide"><img src="Img/gift" class="sliderImg" alt="img" />
-          <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
+          <p style=" margin-top: .1em; font-size:medium;">Label</p>
         </div>
         <div class="swiper-slide"><img src="Img/lamp" class="sliderImg" alt="img" />
-          <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
+          <p style=" margin-top: .1em; font-size:medium;">Label</p>
         </div>
         <div class="swiper-slide"><img src="Img/peacock" class="sliderImg" alt="img" />
-          <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
+          <p style=" margin-top: .1em; font-size:medium;">Label</p>
         </div>
         <div class="swiper-slide"><img src="Img/plant" class="sliderImg" alt="img" />
-          <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
+          <p style=" margin-top: .1rem; font-size:medium;">Label</p>
         </div>
         <div class="swiper-slide"><img src="Img/starbox" class="sliderImg" alt="img" />
-          <p style="font-family:Breeserif ; margin-top: -.1em; font-size:medium;">Label</p>
+          <p style=" margin-top: .1em; font-size:medium;">Label</p>
         </div>
       </div>
       <div class="swiper-button-next"></div>
@@ -184,7 +202,7 @@
                   <span class="card-title">Rs 1000</span>
                 </div>
                 <div class="card-content">
-                  <p>Custom box</p>
+                  <p>Text</p>
                   <button class="AddBtn">Add to Cart</button>
                 </div>
               </div>
@@ -200,7 +218,7 @@
                   <span class="card-title">Rs 1800</span>
                 </div>
                 <div class="card-content">
-                  <p>GemStone</p>
+                  <p>Text</p>
                   <button class="AddBtn">Add to Cart</button>
                 </div>
               </div>
@@ -216,7 +234,7 @@
                   <span class="card-title">Rs 555</span>
                 </div>
                 <div class="card-content">
-                  <p>Gift Box</p>
+                  <p>Text</p>
                   <button class="AddBtn">Add to Cart</button>
                 </div>
               </div>
@@ -232,7 +250,7 @@
                   <span class="card-title" class="cardImg">Rs 799</span>
                 </div>
                 <div class="card-content">
-                  <p>Lamp</p>
+                  <p>Text</p>
                   <button class="AddBtn">Add to Cart</button>
                 </div>
               </div>
@@ -248,7 +266,7 @@
                   <span class="card-title">Rs 499</span>
                 </div>
                 <div class="card-content">
-                  <p>Peakcock Case</p>
+                  <p> Text</p>
                   <button class="AddBtn">Add to Cart</button>
                 </div>
               </div>
@@ -264,7 +282,7 @@
                   <span class="card-title">Rs 399</span>
                 </div>
                 <div class="card-content">
-                  <p>Plant showcase</p>
+                  <p> Text</p>
                   <button class="AddBtn">Add to Cart</button>
                 </div>
               
@@ -281,7 +299,7 @@
                   <span class="card-title">Rs 899</span>
                 </div>
                 <div class="card-content">
-                  <p>Starbox</p>
+                  <p >Text</p>
                   <button class="AddBtn">Add to Cart</button>
                 </div>
               </div>
@@ -315,7 +333,7 @@
                   <span class="card-title">Rs 1000</span>
                 </div>
                 <div class="card-content">
-                  <p>Custom box</p>
+                  <p>Text</p>
                   <button class="AddBtn">Add to Cart</button>
                 </div>
               </div>
@@ -331,7 +349,7 @@
                   <span class="card-title">Rs 1800</span>
                 </div>
                 <div class="card-content">
-                  <p>GemStone</p>
+                  <p>Text</p>
                   <button class="AddBtn">Add to Cart</button>
                 </div>
               </div>
@@ -347,7 +365,7 @@
                   <span class="card-title">Rs 555</span>
                 </div>
                 <div class="card-content">
-                  <p>Gift Box</p>
+                  <p> Text</p>
                   <button class="AddBtn">Add to Cart</button>
                 </div>
               </div>
@@ -363,7 +381,7 @@
                   <span class="card-title" class="cardImg">Rs 799</span>
                 </div>
                 <div class="card-content">
-                  <p>Lamp</p>
+                  <p>Text</p>
                   <button class="AddBtn">Add to Cart</button>
                 </div>
               </div>
@@ -379,7 +397,7 @@
                   <span class="card-title">Rs 499</span>
                 </div>
                 <div class="card-content">
-                  <p>Peakcock Case</p>
+                  <p>Text</p>
                   <button class="AddBtn">Add to Cart</button>
                 </div>
               </div>
@@ -395,7 +413,7 @@
                   <span class="card-title">Rs 399</span>
                 </div>
                 <div class="card-content">
-                  <p>Plant showcase</p>
+                  <p> Text</p>
                   <button class="AddBtn">Add to Cart</button>
                 </div>
               
@@ -412,7 +430,7 @@
                   <span class="card-title">Rs 899</span>
                 </div>
                 <div class="card-content">
-                  <p>Starbox</p>
+                  <p>Text</p>
                   <button class="AddBtn">Add to Cart</button>
                 </div>
               </div>
@@ -525,7 +543,7 @@
 <!-- materialize script -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-
+<!-- swiper script -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 

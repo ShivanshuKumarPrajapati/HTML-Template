@@ -4,6 +4,29 @@ $(document).ready(function(){
     $('.collapsible').collapsible();
     $('.cartSidenav').sidenav({edge:"right",draggable:false});
     
+    // custom script
+    $('#srcItm').click(function(event){
+        event.stopPropagation();
+        $('#searchDiv').css('display','block');
+        $('#search').focus();
+    });
+    $('#srcCls').click(function(){
+        $('#searchDiv').css('display','none');
+    });
+    
+    $('body').click(function(e){
+        var parentId = $(e.target).closest('nav').attr('id');
+        if(parentId == 'searchDiv')
+        {
+            return ;
+        }
+
+        if($('#searchDiv').css('display') == 'block'){
+            $('#searchDiv').css('display','none');
+        }
+    });
+
+    // carousel 
     var swiper = new Swiper(".mySwiper", {
         breakpoints:{
             0:{
